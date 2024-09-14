@@ -1,0 +1,6 @@
+SpeechRecognition
+pyaudio
+setuptools
+bpy
+openai
+python-dotenv
