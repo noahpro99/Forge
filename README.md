@@ -8,6 +8,11 @@ Forge is an AI-powered voice assistant that allow you to use your voice to engin
 
 ## How We Built It
 
+- **Voice Recording & Transcription:** The process begins when the user speaks a command into the microphone. Your voice command is recorded and transcribed using OpenAI’s Whisper that accurately converts spoken language into text.
+- **Viewport Capture:** Simultaneously, Blender takes a snapshot of the current 3D scene viewport and the state of the blender scene. This provides context for the AI to understand the existing state of the model and how the new command should modify it.
+- **AI Script Generation**: The transcribed text and the captured image are sent to GPT-4 model that generates a tailored Blender script. This script is designed and customized based on the current scene and user prompt.
+- **Real-Time Execution**: Through socket and multithreading, the generated script runs in Blender instantly, updating the scene in real-time. This immediate execution allows users to see the results of their voice commands right away.
+
 ## Challenges We Ran Into
 
 ## Accomplishments That We're Proud Of
