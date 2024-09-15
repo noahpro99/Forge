@@ -15,6 +15,11 @@ Forge is an AI-powered voice assistant that allow you to use your voice to engin
 
 ## Challenges We Ran Into
 
+During the development of Forge, we encountered several significant challenges:
+
+- **Blender Script Execution While GUI Is Open:** We faced difficulties getting Blender to run the generated scripts while the GUI was open, which interfered with the real-time interaction we aimed for. The solution was to schedule the script execution on Blender's main thread while simultaneously listening for incoming Python scripts over a socket connection. This required careful threading and synchronization to ensure stability and responsiveness.
+- **Visual Cues for Voice Activation:** Providing a visual cue to indicate when the model was actively listening to voice commands proved challenging. Initially, we wanted a clear on-screen indicator within Blender, but integrating this feature smoothly was complex. We ended up with a compromise: implementing audio cues and changing the background color to signal when the system was listening. 
+
 ## Accomplishments That We're Proud Of
 
 We are proud of several key accomplishments:
