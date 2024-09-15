@@ -4,3 +4,4 @@ setuptools
 bpy
 openai
 python-dotenv
+winsound
