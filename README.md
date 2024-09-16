@@ -1,3 +1,13 @@
+![Forge Logo](img/logo.png)
+
+Winner of [VTHacks](https://vthacks.com/) 2024 Peraton most creative use of generative AI award!
+
+[![Forge VTHacks 2024 Demo](img/demo.png)](https://www.youtube.com/watch?v=iutgneYjaZs "Forge VTHacks 2024 Demo")
+
+# Forge
+
+A revolutionary way to convert ideas into 3D models.
+
 ## Inspiration
 
 The inspiration for Forge emerged from observing the hurdles that we faced when entering the world of 3D modeling. Traditional tools like Blender are powerful but come with a steep learning curve, often requiring hours of training and practice. We wanted to eliminate these barriers and make 3D design accessible to everyone, regardless of their technical background. By leveraging AI and voice technology, we envisioned a platform where creativity isn't limited by technical skill, allowing anyone to bring their ideas to life simply by speaking.
@@ -18,7 +28,7 @@ Forge is an AI-powered voice assistant that allow you to use your voice to engin
 During the development of Forge, we encountered several significant challenges:
 
 - **Blender Script Execution While GUI Is Open:** We faced difficulties getting Blender to run the generated scripts while the GUI was open, which interfered with the real-time interaction we aimed for. The solution was to schedule the script execution on Blender's main thread while simultaneously listening for incoming Python scripts over a socket connection. This required careful threading and synchronization to ensure stability and responsiveness.
-- **Visual Cues for Voice Activation:** Providing a visual cue to indicate when the model was actively listening to voice commands proved challenging. Initially, we wanted a clear on-screen indicator within Blender, but integrating this feature smoothly was complex. We ended up with a compromise: implementing audio cues and changing the background color to signal when the system was listening. 
+- **Visual Cues for Voice Activation:** Providing a visual cue to indicate when the model was actively listening to voice commands proved challenging. Initially, we wanted a clear on-screen indicator within Blender, but integrating this feature smoothly was complex. We ended up with a compromise: implementing audio cues and changing the background color to signal when the system was listening.
 
 ## Accomplishments That We're Proud Of
 
