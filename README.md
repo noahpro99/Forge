@@ -4,6 +4,8 @@ Winner of [VTHacks](https://vthacks.com/) 2024 Peraton most creative use of gene
 
 [![Forge VTHacks 2024 Demo](img/demo.png)](https://www.youtube.com/watch?v=iutgneYjaZs "Forge VTHacks 2024 Demo")
 
+![Forge VTHacks 2024 Demo Video](https://www.youtube.com/watch?v=iutgneYjaZs)
+
 # Forge
 
 A revolutionary way to convert ideas into 3D models.
